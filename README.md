@@ -4,7 +4,7 @@ The algorithm is a tailored k-way partitioning algorithm based on this metric th
 # Contents
 Data ---All test dataset files
 
-DFPM --- We propose an algorithm which can be divided into a client and a master.
+DMINER --- We propose an algorithm which can be divided into a client and a master.
 
 ScaleMine --- A major comparsion algorithm.
 
