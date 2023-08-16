@@ -10,8 +10,8 @@ ScaleMine --- A major comparsion algorithm.
 
 # Experiment setting
 There are a few dependencies which must be satisfied in order to run DMINER.
-1. JDK11.
-2. JGraphT1.5.0(https://jgrapht.org/).
+1. JDK 11.
+2. JGraphT 1.5.0(https://jgrapht.org/).
 # Installation
 
 # Running
