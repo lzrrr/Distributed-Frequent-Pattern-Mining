@@ -9,7 +9,9 @@ DFPM --- We propose an algorithm which can be divided into a client and a master
 ScaleMine --- A major comparsion algorithm
 
 # Experiment setting
-
+There are a few dependencies which must be satisfied in order to run DMINER.
+1.JDK11
+2.JGraphT1.5.0(https://jgrapht.org/)
 # Installation
 
 # Running
@@ -17,3 +19,4 @@ ScaleMine --- A major comparsion algorithm
 2. Distributed Frequent Pattern Mining(client) is a client program, before running, you need to specify the client serial number, maximum number of threads, client ip address, split subgraph path.
 3. Mining process: first run the server program in the server node, and then start the client program from 1 to n in each client node.
 # Output
+DMINER outputs the elapsed time,datashipment and frequent patterns on the standard output.
