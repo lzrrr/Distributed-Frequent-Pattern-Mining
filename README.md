@@ -6,12 +6,12 @@ Data ---All test dataset files
 
 DFPM --- We propose an algorithm which can be divided into a client and a master.
 
-ScaleMine --- A major comparsion algorithm
+ScaleMine --- A major comparsion algorithm.
 
 # Experiment setting
 There are a few dependencies which must be satisfied in order to run DMINER.
-1.JDK11
-2.JGraphT1.5.0(https://jgrapht.org/)
+1. JDK11.
+2. JGraphT1.5.0(https://jgrapht.org/).
 # Installation
 
 # Running
