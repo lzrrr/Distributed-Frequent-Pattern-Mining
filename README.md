@@ -4,7 +4,9 @@ The algorithm is a tailored k-way partitioning algorithm based on this metric th
 # Contents
 Data ---All test dataset files
 
-DMINER --- We propose an algorithm which can be divided into a client and a master.
+PARTITION --- the tailored k-way partitioning algorithm.
+
+DFPM(DMINER) --- We propose an algorithm which can be divided into a client and a master.
 
 ScaleMine --- A major comparsion algorithm.
 
@@ -15,8 +17,9 @@ There are a few dependencies which must be satisfied in order to run DMINER.
 # Installation
 
 # Running
-1. Distributed Frequent Pattern Mining(master) is a server program, before running, it is necessary to specify the number of client nodes, threshold size and top-K value size.
-2. Distributed Frequent Pattern Mining(client) is a client program, before running, you need to specify the client serial number, maximum number of threads, client ip address, split subgraph path.
-3. Mining process: first run the server program in the server node, and then start the client program from 1 to n in each client node.
+1. Running PARTITION to obtain a partition.
+2. Distributed Frequent Pattern Mining(master) is a server program, before running, it is necessary to specify the number of client nodes, threshold size and top-K value size.
+3. Distributed Frequent Pattern Mining(client) is a client program, before running, you need to specify the client serial number, maximum number of threads, client ip address, split subgraph path.
+4. Mining process: first run the server program in the server node, and then start the client program from 1 to n in each client node.
 # Output
 DMINER outputs the elapsed time,datashipment and frequent patterns on the standard output.
