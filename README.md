@@ -29,8 +29,9 @@ Partition:
 4. Graph graph = CreateGraph.Get_newGraph("path"); //Path of the input graph
 
 DMINER:
+
 --Server:
-1. int numofclient = 1; //The number of Clients
+1. int numofclient = 2; //The number of Clients
 2. int support = 2000; //The support threshold
 
 --Client:
